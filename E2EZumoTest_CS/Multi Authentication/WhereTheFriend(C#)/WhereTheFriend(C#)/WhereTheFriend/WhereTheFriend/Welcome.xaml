@@ -1,0 +1,141 @@
+﻿<Page
+    x:Class="WhereTheFriend.Welcome"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WhereTheFriend"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="1300" Height="800" >
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <!-- Header-->
+            <RowDefinition Height="30" />
+            <RowDefinition Height="10" />
+            <!--Content -->
+            <RowDefinition Height="720" />
+
+
+        </Grid.RowDefinitions>
+        <!-- Header-->
+        <Border CornerRadius="2"  Grid.Row="0" BorderThickness="2" BorderBrush="White">
+            <StackPanel x:Name="stkpnlHeader"  Orientation="Horizontal"  Background="Gray" Height="30" >
+                <StackPanel Width="1000" HorizontalAlignment="Left" >
+                    <TextBlock Text="Mobile Services E2E Zumo automation testing .." Margin="5,5,0,0"  FontWeight="Bold" FontSize="12"></TextBlock>
+                </StackPanel>
+                <StackPanel  Width="300" HorizontalAlignment="Right"  Orientation="Horizontal" >
+                    <TextBlock x:Name="lblWUsername"   FontSize="12" FontWeight="Bold" />
+                    <Button x:Name="btnSignout" Content="Sign out" Foreground="Yellow" BorderThickness="0" Click="btnSignout_Click_1" FontSize="12"></Button>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+        <!-- Content -->
+        <StackPanel x:Name="stkpnlContent" Grid.Row="2" >
+            <Grid x:Name="grdContent" Height="720">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="10" />
+                    <ColumnDefinition Width="600" />
+                    <ColumnDefinition Width="10" />
+                    <ColumnDefinition Width="480" />
+                </Grid.ColumnDefinitions>
+                <!-- Left Column-->
+                <Border CornerRadius="2" Grid.Row="0" Grid.Column="0"  BorderThickness="2" BorderBrush="White">
+                    <StackPanel x:Name="stkpnlLeftContent"   Background="DarkGray" >
+                        <StackPanel Orientation="Horizontal" Background="Gray" Margin="5,10,5,0" >
+                            <StackPanel Orientation="Vertical">
+                            <Border CornerRadius="2" BorderBrush="Black" BorderThickness="1">
+                                <Image x:Name="imguserImage" Source="{Binding pic}"  Width="100" Height="100" />
+                            </Border>
+                            </StackPanel>
+                            <TextBlock x:Name="lblUsername"  Margin="5,10,0,0" FontStyle="Italic" FontSize="10" FontWeight="Bold"/>
+                               
+                        </StackPanel>
+
+                        <StackPanel Background="Gray" Margin="5,10,5,0" >
+                            <TextBlock FontSize="12" FontWeight="Bold" Text=" Event" FontStyle="Italic"></TextBlock>
+                            <Border BorderBrush="White" BorderThickness="1" Margin="5,1,5,0" Background="White">
+                                <Line Height="0" Fill="White" ></Line>
+                            </Border>
+                            <Button x:Name="btnMyFriends" BorderThickness="0"  Foreground="Yellow"  Content="My Friends" Click="btnMyFriends_Click_1" FontSize="10" ></Button>
+
+                            <Button x:Name="btnPendingFriendsRequest" Foreground="Yellow" BorderThickness="0"  Content="Friends Request" Click="btnPendingFriendsRequest_Click_1" FontSize="10" ></Button>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Center Column-->
+                <Border CornerRadius="2" Grid.Row="0" Grid.Column="2"  BorderThickness="2" BorderBrush="White">
+                    <StackPanel x:Name="stkpnlCenterContent"   Background="LightGray" >
+                        <!-- Share Message-->
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="5,5,5,0" Width="585" Background="Gray" >
+                            <TextBlock FontSize="12" Margin="5,5,0,0" FontWeight="Bold" Text=" Share Message"></TextBlock>
+                            <TextBox x:Name="txtShareMessage" Width="500" Margin="5,5,80,0"  ></TextBox>
+                            <Button x:Name="btnShareMessage" Margin="5,5,0,0" Content="Share Message" Foreground="Yellow" BorderThickness="0" FontSize="12" Click="btnShareMessage_Click_1"></Button>
+                        </StackPanel>
+                        <!-- All Cuatomers List -->
+                        <StackPanel Orientation="Vertical"  VerticalAlignment="Center" >
+                            <StackPanel Orientation="Horizontal" Background="Gray" Margin="5,5,5,0" >
+                                <TextBlock FontSize="12" FontWeight="Bold" Text="All Customers " Margin="5,0,0,0" />
+                                <Button x:Name="btnAddFriendRequest" Content="Add Friends" BorderThickness="0" FontWeight="Bold" 
+                                                 FontSize="10" Click="btnAddFriendRequest_Click_1" Foreground="Yellow"  />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Background="Gray" Margin="5,5,5,0" >
+                                <ListView x:Name="lvListAllCustomer" HorizontalAlignment="Left" Margin="5,5,0,0"  VerticalAlignment="Top" Width="580" Height="409">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border CornerRadius="2"  BorderBrush="Gray" BorderThickness="2" Width="450" >
+                                            <StackPanel Orientation="Horizontal" Width="400">
+                                                    <Border CornerRadius="2" BorderBrush="Black" BorderThickness="1" Width="50" Height="50">
+                                                        <Image Source="{Binding userImage}" Width="50" Height="50"  ></Image>
+                                                    </Border>
+                                                    <StackPanel Orientation="Vertical">
+                                                    <TextBox Text="{Binding name}" FontSize="12" Margin="5,0,0,0" Background="Gray"  BorderThickness="0"  FontWeight="Bold" ></TextBox>
+                                                    <TextBox Text="{Binding createdAt}" FontSize="10" BorderThickness="0" Background="Gray"  Margin="5,0,0,0" ></TextBox>
+                                                </StackPanel>
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+
+
+                </Border>
+
+                <!-- Right Column-->
+                <Border CornerRadius="2" Grid.Row="0" Grid.Column="4"  BorderThickness="2" BorderBrush="White">
+                    <StackPanel x:Name="stkpnlRightContent"   Background="LightGray" >
+                            <StackPanel Orientation="Horizontal" Background="Gray" Margin="5,5,5,0">
+                                <TextBlock FontSize="12" FontWeight="Bold" Text="Message list " Margin="5,5,0,0" />
+                                <Button x:Name="btnDeleteMessage" Click="btnDeleteMessage_Click_1" Foreground="Yellow" BorderThickness="0" Content="Delete Message" FontWeight="Bold" FontSize="10" />
+                            </StackPanel>
+                        
+                        <StackPanel Orientation="Vertical"  VerticalAlignment="Center" Background="Gray" Margin="5,5,5,0">
+                            <ListView x:Name="lvListMessage" HorizontalAlignment="Left"  Margin="5,5,0,0"  VerticalAlignment="Top" Width="460" Height="409">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border CornerRadius="2"  BorderBrush="Gray" BorderThickness="2" Width="450" >
+                                            <StackPanel Orientation="Horizontal" Width="400">
+                                                <Border CornerRadius="2" BorderBrush="Black" BorderThickness="1" Width="50" Height="50">
+                                                    <Image Source="{Binding userImage}" Width="50" Height="50"  ></Image>
+                                                </Border>
+                                                <StackPanel Orientation="Vertical">
+                                                    <TextBox Text="{Binding username}" FontSize="12" Margin="5,0,0,0" Background="Gray"  BorderThickness="0"  FontWeight="Bold" ></TextBox>
+                                                    <TextBox Text="{Binding message}" FontSize="10" BorderThickness="0" Background="Gray"  Margin="5,0,0,0" ></TextBox>
+                                                </StackPanel>
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+</Page>

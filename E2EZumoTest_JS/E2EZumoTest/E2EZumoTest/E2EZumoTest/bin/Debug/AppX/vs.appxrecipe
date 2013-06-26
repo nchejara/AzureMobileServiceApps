@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ZUMOWIN8RTMVSU2</Machine>
+    <WindowsUser>v-narenp</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>9A540A730ADACDF428731A02C018761467C2347DB05DDEAE000AA633B8232291</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>BUILD.1b054c20-835c-46d3-a544-bfb329908520_1.0.0.0_neutral__f7kqrc3w55hhr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>BUILD.1b054c20-835c-46d3-a544-bfb329908520_f7kqrc3w55hhr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>BUILD.1b054c20-835c-46d3-a544-bfb329908520</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=v-narenp</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-12-06T08:30:38.461</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro HTML\Redist\CommonConfiguration\neutral\LiveSDKHTML\Images\SignInControl\Hotmail_Black.png">
+      <PackagePath>LiveSDKHTML\Images\SignInControl\Hotmail_Black.png</PackagePath>
+      <Modified>2012-05-21T18:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro HTML\Redist\CommonConfiguration\neutral\LiveSDKHTML\Images\SignInControl\Hotmail_White.png">
+      <PackagePath>LiveSDKHTML\Images\SignInControl\Hotmail_White.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro HTML\Redist\CommonConfiguration\neutral\LiveSDKHTML\Images\SignInControl\Messenger_Black.png">
+      <PackagePath>LiveSDKHTML\Images\SignInControl\Messenger_Black.png</PackagePath>
+      <Modified>2012-05-21T18:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro HTML\Redist\CommonConfiguration\neutral\LiveSDKHTML\Images\SignInControl\Messenger_White.png">
+      <PackagePath>LiveSDKHTML\Images\SignInControl\Messenger_White.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro HTML\Redist\CommonConfiguration\neutral\LiveSDKHTML\Images\SignInControl\SkyDrive_Black.png">
+      <PackagePath>LiveSDKHTML\Images\SignInControl\SkyDrive_Black.png</PackagePath>
+      <Modified>2012-05-21T18:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro HTML\Redist\CommonConfiguration\neutral\LiveSDKHTML\Images\SignInControl\SkyDrive_White.png">
+      <PackagePath>LiveSDKHTML\Images\SignInControl\SkyDrive_White.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro HTML\Redist\CommonConfiguration\neutral\LiveSDKHTML\Images\SignInControl\Windows_Black.png">
+      <PackagePath>LiveSDKHTML\Images\SignInControl\Windows_Black.png</PackagePath>
+      <Modified>2012-05-21T18:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro HTML\Redist\CommonConfiguration\neutral\LiveSDKHTML\Images\SignInControl\Windows_White.png">
+      <PackagePath>LiveSDKHTML\Images\SignInControl\Windows_White.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MobileServicesJavaScriptClient\0.2.0.0\Redist\Debug\neutral\MobileServicesJavaScriptClient\MobileServices.js">
+      <PackagePath>MobileServicesJavaScriptClient\MobileServices.js</PackagePath>
+      <Modified>2012-10-26T22:30:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro HTML\Redist\Debug\neutral\LiveSDKHTML\js\wl.js">
+      <PackagePath>LiveSDKHTML\js\wl.js</PackagePath>
+      <Modified>2012-05-22T19:22:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2012-11-29T09:38:53.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\html\home.html">
+      <PackagePath>html\home.html</PackagePath>
+      <Modified>2012-11-29T09:38:54.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\html\home.js">
+      <PackagePath>html\home.js</PackagePath>
+      <Modified>2012-12-06T08:32:25.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\html\Permission.js">
+      <PackagePath>html\Permission.js</PackagePath>
+      <Modified>2012-11-29T09:38:53.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2012-11-29T09:38:54.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\js\navigation.js">
+      <PackagePath>js\navigation.js</PackagePath>
+      <Modified>2012-11-29T09:38:54.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\Scripts\Channels.Delete.js">
+      <PackagePath>Scripts\Channels.Delete.js</PackagePath>
+      <Modified>2012-11-29T09:38:54.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\Scripts\Channels.Insert.js">
+      <PackagePath>Scripts\Channels.Insert.js</PackagePath>
+      <Modified>2012-11-29T09:38:54.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\Scripts\Channels.Update.js">
+      <PackagePath>Scripts\Channels.Update.js</PackagePath>
+      <Modified>2012-11-29T09:38:54.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-29T09:38:53.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-29T09:38:54.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-29T09:38:54.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-29T09:38:54.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-11-29T09:38:53.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-12-06T08:30:38.027</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

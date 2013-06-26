@@ -1,0 +1,13 @@
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bin\Debug\resources.pri
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bin\Debug\AppxManifest.xml
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bin\Debug\E2EZumoTest.build.appxrecipe
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bld\Debug\priconfig.xml.intermediate
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bld\Debug\layout.resfiles.intermediate
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bld\Debug\resources.resfiles.intermediate
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bld\Debug\pri.resfiles.intermediate
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bld\Debug\priconfig.xml
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bld\Debug\layout.resfiles
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bld\Debug\resources.resfiles
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bld\Debug\pri.resfiles
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bld\Debug\LanguageQualifiers.txt
+C:\Naren MobileService Test\latest from TFS\E2EZumoTest_JS\E2EZumoTest\E2EZumoTest\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,46 @@
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\platformSpecificFunctions.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\testFramework.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\testFrameworkConnections.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\allTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\loginTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\miscTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\pushTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\queryTestData.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\queryTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\roundTripTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\updateDeleteTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\resources.pri
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\AppxManifest.xml
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\ZumoE2EWinJSApp.build.appxrecipe
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\priconfig.xml
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\layout.resfiles
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\resources.resfiles
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\pri.resfiles
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\LanguageQualifiers.txt
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\ProjectArchitectures.txt
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\MobileServices.pri.xml
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\priconfig.xml.intermediate
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\layout.resfiles.intermediate
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\resources.resfiles.intermediate
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\pri.resfiles.intermediate
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\platformSpecificFunctions.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\testFramework.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\testFrameworkConnections.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\allTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\loginTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\miscTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\pushTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\queryTestData.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\queryTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\roundTripTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\js\tests\updateDeleteTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\resources.pri
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\AppxManifest.xml
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\TestFramework\Debug\ZumoE2EWinJSApp.build.appxrecipe
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\priconfig.xml
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\layout.resfiles
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\resources.resfiles
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\pri.resfiles
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\LanguageQualifiers.txt
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\MobileServices.pri.xml
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EWinJSApp\bld\Debug\ProjectArchitectures.txt

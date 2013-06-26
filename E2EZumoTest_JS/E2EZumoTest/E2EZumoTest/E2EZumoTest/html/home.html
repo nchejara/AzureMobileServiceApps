@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WhereTheFriend</title>
+    <!-- WinJS references -->
+    <link rel="stylesheet" type="text/css" href="//Microsoft.WinJS.1.0/css/ui-dark.css" />
+    <script type="text/javascript" src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script type="text/javascript" src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    <script type="text/javascript" src="/MobileServicesJavaScriptClient/MobileServices.js"></script>
+    <script type="text/javascript" src="/LiveSDKHTML/js/wl.js"></script>
+    <script type="text/javascript" src="/LiveSDKHTML/js/wl.js"></script>
+    <script type="text/javascript" src="home.js"></script>
+
+
+</head>
+<body>
+    <div style="width: 98%; height: 98%; padding-left: 10px; position: fixed">
+        <br />
+        <div style="border: 2px solid #e2e2e2; background-color: Gray; width: 98.5%">
+            <table style="width: 100%">
+                <tr>
+                    <td style="text-align: left">&nbsp
+                        <label style="color: Yellow"><b><i>E2E Zumo test automation ...</i></b></label>
+                    </td>
+                    <td style="text-align: right">
+                        <b><i>
+                            <label id="lblUserName"></label>
+                        </i></b>
+                        <div id="signin" style="float: right"></div>
+
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+        <div id="MainDiv">
+            <table style="width: 100%; height: 100%">
+
+                <tr>
+                    <td style="width: 20%; height: 100%; vertical-align: top">
+                        <!-- Left column -->
+                        <div id="LeftMain" style="width: 98%; height: 98%; padding: 2px 2px 2px 2px; border: 2px solid #e2e2e2; background-color: Gray">
+
+                            <table style="width: 100%">
+                                <tr>
+                                    <td>
+                                        <label style="color: Yellow; font-size: 11px"><b><i>Application URL and Key  ...</i></b></label>
+                                        <hr />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label style="font-size: 11px">Application URL</label></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" id="txtURL" /></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label style="font-size: 11px">Application Key</label></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" id="txtKey" /></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label style="font-size: 11px">Master Key</label></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" id="txtMasterKey" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label id="lblMsg" style="color: Yellow"></label>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <label style="color: Yellow"><b><i>Scenarios</i></b></label>
+                            <hr />
+                            &nbsp;&nbsp;&nbsp;<label style="color: Yellow; font-size: 11px"><b>1. Insert and Verify</b></label><br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button id="btnRoundTripDataTypes" style="border: 0px none; font-size: 11px">1.1 RoundTripDataTypes</button><br />
+                            &nbsp;&nbsp;&nbsp;<label style="color: Yellow; font-size: 11px"><b>2. Query</b></label><br />
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button id="btnRunQuery" style="border: 0px none; font-size: 11px">2.1 Run Query</button><br />
+
+                            &nbsp;&nbsp;&nbsp;<label style="color: Yellow; font-size: 11px"><b>3. Permission</b></label><br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button id="btnEveryOnePermission" style="border: 0px none; font-size: 11px">3.1 Every one</button> |
+                            <button id="btnApplicationOnly" style="border: 0px none; font-size: 11px">3.2 Application key only</button><br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button id="btnAuthenticationOnly" style="border: 0px none; font-size: 11px">3.3 Authentication only</button><br />
+                            <div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                <button id="btnAuthMicrosoft" style="border: 0px none; font-size: 11px">Microsoft</button>|
+                                <button id="btnAuthGoogle" style="border: 0px none; font-size: 11px">Google</button>|
+                                <button id="btnAuthTwitter" style="border: 0px none; font-size: 11px">Twitter</button>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+                                <button id="btnAuthFacebook" style="border: 0px none; font-size: 11px">Facebook</button> |
+                                <button id="btnAuthMicrosoftToken" style="border: 0px none; font-size: 11px">Microsoft(T)</button>|
+                                <button id="btnAuthFacebookToken" style="border: 0px none; font-size: 11px">Facebook(T)</button> 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+                                <button id="btnAuthTwitterToken" style="border: 0px none; font-size: 11px">Twitter(T)</button> |
+                                <button id="btnAuthGoogleToken" style="border: 0px none; font-size: 11px">Google(T)</button> 
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button id="btnScript" style="border: 0px none; font-size: 11px">3.4 Scripts and admin</button><br />
+
+                            &nbsp;&nbsp;&nbsp;<label style="color: Yellow; font-size: 11px"><b>4. Dynamic Schema</b></label><br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button id="btnDynamicSchema" style="border: 0px none; font-size: 11px">4.1 Enable dynamic schema</button><br />
+
+                            &nbsp;&nbsp;&nbsp;<label style="color: Yellow; font-size: 11px"><b>5. Script</b></label><br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button id="btnScriptInsert" style="border: 0px none; font-size: 11px">5.1 Insert </button>
+                            |
+                            <button id="btnScriptUpdate" style="border: 0px none; font-size: 11px">5.2 Update </button>
+                            |
+                            <button id="btnScriptRead" style="border: 0px none; font-size: 11px">5.3 Read </button>
+                            <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button id="btnScriptDelete" style="border: 0px none; font-size: 11px">5.4 Delete </button>
+                            <br />
+
+                            &nbsp;&nbsp;&nbsp;<label style="color: Yellow; font-size: 11px"><b>6. Push Notification</b></label><br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button id="btnPushInsert" style="border: 0px none; font-size: 11px">6.1 Insert </button>
+                            |
+                            <button id="btnPushUpdate" style="border: 0px none; font-size: 11px">6.2 Update </button>
+                            |
+                            <button id="btnPushDelete" style="border: 0px none; font-size: 11px">6.3 Delete </button>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;                    
+                            <button id="btnRawPushInsert" style="border: 0px none; font-size: 11px">6.4 Insert Raw Push </button>
+
+                        </div>
+
+
+                    </td>
+                    <td style="width: 60%; vertical-align: top">
+                        <!-- Middle column -->
+                        <div id="MiddleMain" style="width: 100%;">
+                            <div style="border: 2px solid #e2e2e2; background-color: DarkGray; width: 98%;">
+                                <section aria-label="Main content" role="main">
+                                    <div style="width: 100%;">
+                                        <div style="padding-left: 7px; padding-right: 25px;">
+                                            <table style="width: 100%; background-color: Gray; margin: 0,0,0,0; font-size: 11px; padding: 0,0,0,0; text-align: left;">
+                                                <tr>
+                                                    <td colspan="7">
+                                                        <label style="color: Yellow; font-size: 12px"><b><i>Scenarios Details</i></b></label></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width: 5%;">
+                                                        <label style="color: Yellow;">Id</label></td>
+                                                    <td style="width: 25%;">
+                                                        <label style="color: Yellow;">Name</label></td>
+                                                    <td style="width: 20%;">
+                                                        <label style="color: Yellow;">Value</label></td>
+                                                    <td style="width: 15%;">
+                                                        <label style="color: Yellow;">GetValue</label></td>
+                                                    <td style="width: 15%;">
+                                                        <label style="color: Yellow;">ActualResult</label></td>
+                                                    <td style="width: 10%;">
+                                                        <label style="color: Yellow;">ExcpectedResult</label></td>
+                                                    <td style="width: 10%;">
+                                                        <label style="color: Yellow;">Result</label></td>
+
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div id="DataTamplate" data-win-control="WinJS.Binding.Template" style="width: 100%;">
+                                        <table style="width: 100%; background-color: #808080; margin: 0,0,0,0; font-size: 10px; padding: 0,0,0,0; table-layout: fixed">
+                                            <tr>
+                                                <td style="width: 5%">
+                                                    <label data-win-bind="innerText: Id"></label>
+                                                </td>
+                                                <td style="width: 25%">
+                                                    <label data-win-bind="innerText: Name"></label>
+                                                </td>
+                                                <td style="width: 20%">
+                                                    <label data-win-bind="innerText: Value"></label>
+                                                </td>
+                                                <td style="width: 15%">
+                                                    <label data-win-bind="innerText: GetValue"></label>
+                                                </td>
+                                                <td style="width: 15%">
+                                                    <label data-win-bind="innerText: ActualResult"></label>
+                                                </td>
+                                                <td style="width: 10%">
+                                                    <label data-win-bind="innerText: ExpectedResult"></label>
+                                                </td>
+                                                <td style="width: 10%">
+                                                    <label data-win-bind="innerText: Result"></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="Data" style="overflow-y: scroll;" data-win-control="WinJS.UI.ListView"
+                                        data-win-options="{itemTemplate: select('#DataTamplate'), layout: { type: WinJS.UI.ListLayout } }">
+                                    </div>
+                                </section>
+                                <br />
+                                <section>
+                                    <div>
+                                        <table style="width: 100%; background-color: #808080; table-layout: fixed">
+                                            <tr>
+                                                <td>
+                                                    <label style="color: Yellow; font-size: 12px"><b><i>Exception Details</i></b></label></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="ExceptionTemplate" data-win-control="WinJS.Binding.Template" style="width: 100%; margin: 0,0,0,0; font-size: 8px; padding: 0,0,0,0">
+                                        <table style="width: 100%; background-color: #808080; font-size: 10px; table-layout: fixed">
+                                            <tr>
+                                                <td style="width: 30%">
+                                                    <label data-win-bind="innerText: Name"></label>
+                                                </td>
+                                                <td style="width: 70%">
+                                                    <label data-win-bind="innerText: ExceptionDetails"></label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="Exception" style="overflow-y: scroll; height: 310px" data-win-control="WinJS.UI.ListView"
+                                        data-win-options="{itemTemplate: select('#ExceptionTemplate'), layout: { type: WinJS.UI.ListLayout } }">
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

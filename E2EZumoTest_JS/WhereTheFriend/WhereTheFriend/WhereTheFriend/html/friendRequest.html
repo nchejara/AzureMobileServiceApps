@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Pending friend request</title>
+    
+    <link rel="stylesheet" type="text/css" href="//Microsoft.WinJS.1.0/css/ui-dark.css" />
+    <script type="text/javascript" src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script type="text/javascript" src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    <script type="text/javascript" src="friendRequest.js"></script>
+</head>
+<body>
+    <div style="width: 98%; height: 98%; padding-left: 10px; position: fixed">
+        <div id="Menu" style="text-align: right">
+            <button id="btnApproved" style="border: 0px none; font-size: 10px; color:yellow">Approved</button>
+            <button id="btnReject" style="border: 0px none; font-size: 10px; color:yellow">Reject</button>
+            <button id="btnBack" style="border: 0px none; font-size: 10px; color:yellow">Back</button>
+            <br />
+        </div>
+        <div id="friendRequest" style="border: 2px solid #e2e2e2; background-color: darkgray;
+            width: 100%; padding-top: 5px;" >
+            <label><b><i>&nbsp;Friend Request</i></b></label>
+            <hr />
+            <section aria-label="Main content" role="main"  >
+                <div id="PendingFriendRequestTamplate" data-win-control="WinJS.Binding.Template">
+                    <div style="background-color: Gray; position: relative">
+                    <img data-win-bind="src: userImage" style="border: 1px solid #e2e2e2; width: 50px;
+                        height: 50px; float: left; margin-right: 5px" />
+                    <div style=" padding-left: 10px; padding-right: 10px">
+                        <h4 data-win-bind="innerText: username"></h4>
+                        <h6 data-win-bind="innerText: createdAt"></h6>
+                    </div>
+                   
+                </div>
+                </div>
+                <div id="listApproved" style="overflow-y: scroll; overflow-y: scroll; " data-win-control="WinJS.UI.ListView" data-win-options="{itemTemplate: select('#PendingFriendRequestTamplate'), layout: { type: WinJS.UI.GridLayout } }">
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

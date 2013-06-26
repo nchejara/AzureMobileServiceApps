@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="//Microsoft.WinJS.1.0/css/ui-dark.css" />
+    <script type="text/javascript" src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script type="text/javascript" src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    <!-- WhereTheFriend references -->
+    <script type="text/javascript" src="../js/helper.js"></script>
+    <script type="text/javascript" src="welcome.js"></script>
+    <script type="text/javascript" src="/LiveSDKHTML/js/wl.js"></script>
+</head>
+<body>
+    <div style="width: 98%; height: 98%; padding-left: 10px; position: fixed">
+        <br />
+        <div style="border: 2px solid #e2e2e2; background-color: Gray; padding-right: 5px;
+            text-align: right">
+            Welcome, [&nbsp;<i><label id="lblUsername" style="font-size: 13px; color:yellow"></label>
+            </i>&nbsp;]
+            
+        </div>
+        <div id="MainDiv">
+            <table style="width: 100%; height: 100%">
+                <tr>
+                    <td style="width: 20%; vertical-align: top">
+                        <!-- Left column -->
+                        <div id="LeftMain" style="width: 98%; height: 98%; border: 2px solid #e2e2e2; background-color: Gray">
+                            <div id="Imageandname" style="padding: 2px 2px 2px 2px">
+                                <img data-win-bind="src: userImageLogo" style="border: 1px solid #e2e2e2; width: 100px;
+                                    height: 100px; float: left; margin-right: 5px" />
+                                <b>
+                                    <label id="profileName" style="font-size: 13px"></label>
+                                </b>
+                            </div>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <div style="width: 98%;background-color: gray">
+                                <label style="font-size: 13px"><b><i>&nbsp;Event</i></b></label>
+                                <hr />
+                                <button id="btnPendingRequest" style="border: 0px none; font-size: 10px; color:yellow">
+                                    Friend Request &nbsp;<b><label id="lblrequestNumber"></label>
+                                    </b>
+                                </button>
+                                <br />
+                                <button id="btnAllFriends" style="border: 0px none; font-size: 10px; color:yellow">
+                                    All friends &nbsp;<b><label id="lblAllFriends"></label>
+                                    </b>
+                                </button>
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                            </div>
+                        </div>
+                    </td>
+                    <td style="width: 40%; vertical-align: top">
+                        <!-- Middle column -->
+                        <div id="MiddleMain" style="width: 100%;">
+                            <div id="ShareMessage" style="border: 2px solid #e2e2e2; background-color: Gray;
+                                width: 98%">
+                                <table style="width: 100%">
+                                    <tr>
+                                        <td>
+                                            <label style="font-size: 13px"><b>Share message</b></label>
+                                            <br />
+                                            <input type="text" style="width: 98%;" id="txtMessage" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: right">
+                                            <button id="btnShareMessage" style="border: 0px none; font-size: 10px; color:yellow">
+                                                Share Message
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <br />
+                            <div id="findRequest" style="border: 2px solid #e2e2e2; background-color: Gray;
+                                width: 98%; padding-top: 5px;">
+                                <section aria-label="Main content" role="main">
+                                    <label style="font-size: 13px"><b><i>&nbsp;Search Friend</i></b></label>
+                                    <hr />
+                                    <div style="text-align: right">
+                                        <button id="btnAddRequest" style="border: 0px none; font-size: 10px; color:yellow">
+                                            Add as Friend
+                                        </button>
+                                        <input type="text" id="txtSearchFriend" />&nbsp;
+                                        <button id="btnSearchFriend" style="border: 0px none; font-size: 10px; color:yellow">Search</button>
+                                        &nbsp;
+                                    </div>
+                                    <div id="requestTamplate" data-win-control="WinJS.Binding.Template"  style="width: 100%">
+                                        <div style="height: 55px; background-color: darkgray">
+                                        <img data-win-bind="src: userImage" style="border: 1px solid Black; width: 50px;
+                                            height: 50px; float: left; margin-right: 5px" />
+                                        
+                                        <div style="padding-left: 10px; padding-right: 10px;">
+                                            <h4 data-win-bind="innerText: name"></h4>
+                                            <h6 data-win-bind="innerText: createdAt"></h6>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div id="friendList" style="overflow-y: scroll" data-win-control="WinJS.UI.ListView"
+                                        data-win-options="{itemTemplate: select('#requestTamplate'), layout: { type: WinJS.UI.ListLayout } }">
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="width: 30%; vertical-align: top">
+                        <!-- Right column -->
+                        <div id="RecentCheckin" style="border: 2px solid #e2e2e2; background-color: Gray; width: 100%;">
+                            <table style="width: 100%">
+                                <tr>
+                                    <td>
+                                        <label style="font-size: 13px"><b><i>&nbsp;Recent Check-in</i></b></label>
+                                    </td>
+                                    <td style="text-align: right">
+                                        <button id="btnDel" style="border: 0px none; font-size: 10px; color:yellow">Delete</button>
+                                        &nbsp; </td>
+                                </tr>
+                            </table>
+                            <hr />
+                            <section aria-label="Main content" role="main">
+                                <div id="checkintemplate"  data-win-control="WinJS.Binding.Template" style="background-color: Gray; width: 100%;">
+                                    <div style="height: 55px;  background-color: darkgray; position: relative;">
+                                        <img data-win-bind="src: userImage" style="border: 1px solid Black; width: 50px;
+                                            height: 50px; float: left; margin-right: 5px" />
+                                        <div style="padding-left: 10px; padding-right: 10px; ">
+                                            <h4 data-win-bind="innerText: username" style="font-size:13px"></h4>
+                                            <h5 data-win-bind="innerText: message" style="font-size:10px"></h5>
+                                        </div>
+                                        <div style="text-align: left; font-size: small; font-size:10px; background-color:darkgray" data-win-bind="innerText: createdAt">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="listCheckins" style="overflow-y: scroll" data-win-control="WinJS.UI.ListView"
+                                    data-win-options="{itemTemplate: select('#checkintemplate'), layout: { type: WinJS.UI.ListLayout } }">
+                                </div>
+                            </section>
+                        </div>
+                        <br />
+                        
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

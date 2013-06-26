@@ -1,0 +1,103 @@
+﻿<Page
+    x:Class="WTFHelper.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WTFHelper"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}" Margin="5,5,0,0">
+        <Grid.RowDefinitions>
+            <!-- Header-->
+            <RowDefinition Height="30" />
+            <RowDefinition Height="10" />
+            <!--Content -->
+            <RowDefinition Height="720" />
+           
+        </Grid.RowDefinitions>
+        <!-- Header-->
+        <Border CornerRadius="2"  Grid.Row="0" BorderThickness="2" BorderBrush="White">
+            <StackPanel x:Name="stkpnlHeader"   Background="Gray" Height="30" >
+                <TextBlock Text="Where The Friend Helper .." Margin="5,5,0,0" FontWeight="Bold" FontSize="12"></TextBlock>
+            </StackPanel>
+        </Border>
+        <!-- Content -->
+        <StackPanel x:Name="stkpnlContent" Grid.Row="2" >
+            <Grid x:Name="grdContent" Height="720">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1350" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Center Column-->
+                <Border CornerRadius="2" Grid.Row="0" Grid.Column="2"  BorderThickness="2" BorderBrush="White">
+                    <StackPanel x:Name="stkpnlCenterContent"   Background="Gray" >
+                        <StackPanel x:Name="ApsInit" Orientation="Vertical" Background="Gray"  Height="150" Margin="5,5,0,0"  VerticalAlignment="Top">
+                            <TextBlock Text="Apps Initialization" FontWeight="Bold" FontSize="13" Margin="5,5,0,0"></TextBlock>
+                            <StackPanel Orientation="Horizontal" Background="Gray" VerticalAlignment="top">
+                                <TextBlock Text="Application URL :" FontWeight="Bold" FontSize="10" Margin="5,5,0,0"></TextBlock>
+                                <TextBox x:Name="txtURL" Margin="5,5,0,0" Width="515"></TextBox>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Background="Gray" VerticalAlignment="top">
+                                <TextBlock Text="Application Key :" FontWeight="Bold" FontSize="10" Margin="5,5,0,0"></TextBlock>
+                                <TextBox x:Name="txtKey" Margin="5,5,0,0" Width="515"></TextBox>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Background="Gray" VerticalAlignment="top">
+                                <Button x:Name="btnInsert" Content="Insert" Width="139" Click="btnInsert_Click_1"></Button>
+                                <TextBlock x:Name="lblErrorMsg" Text="" FontWeight="Bold" Margin="5,15,0,0" FontSize="12" Foreground="Red"></TextBlock>
+                                <TextBlock x:Name="lblMsg" Text="" FontWeight="Bold" Margin="5,15,0,0" FontSize="12"></TextBlock>
+                            </StackPanel>
+                        </StackPanel >
+                        <StackPanel x:Name="SpnlShow" Orientation="Horizontal" Background="Gray"  Height="20" Margin="5,5,0,0"  VerticalAlignment="Top" >
+                            <TextBlock Text="ID" Width="100" FontWeight="Bold" ></TextBlock>
+                            <TextBlock Text="Details" Width="1000" FontWeight="Bold" ></TextBlock>
+                        </StackPanel>
+                        <ItemsControl x:Name="ItemData" HorizontalAlignment="Left"  Margin="5,0,0,0" 
+                         VerticalAlignment="Top"  >
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel  Orientation="Horizontal" Background="Gray" VerticalAlignment="top" >
+                                        <TextBlock x:Name="LVId"  Text="{Binding ID}" Width="100" ></TextBlock>
+                                        <TextBlock x:Name="LVDetails"  Text="{Binding Details}" Width="1000" ></TextBlock>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+
+                        </ItemsControl>
+                        <StackPanel x:Name="Exceptiondetails" Orientation="Horizontal" Background="Gray" Height="20" Margin="5,5,0,0"  VerticalAlignment="Top">
+                            <TextBlock Text="ID" Width="100" FontWeight="Bold" ></TextBlock>
+                            <TextBlock Text="Exception Details"  FontWeight="Bold" ></TextBlock>
+                        </StackPanel>
+                        <ItemsControl x:Name="ItemExceptionData" HorizontalAlignment="Left"  Margin="5,0,0,0" 
+                         VerticalAlignment="Top"  >
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel  Orientation="Horizontal" Background="Gray" VerticalAlignment="top" >
+                                        <TextBlock x:Name="LVEId"  Text="{Binding ID}" Width="100" ></TextBlock>
+                                        <TextBlock x:Name="LVEDetails"  Text="{Binding ExceptionDetails}"></TextBlock>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+
+                        </ItemsControl>
+
+                        <StackPanel x:Name="stUsage" >
+                                <TextBlock Text="Usage :" FontSize="13" Margin="5,5,0,0" FontWeight="Bold" ></TextBlock>
+                                <StackPanel Margin="20,5,0,0" Background="Gray">
+                                    <TextBlock Text="1. Create an appication on windows Azure mobile service and add three tables [ Customers, Friends and Checkins ]." FontWeight="Bold"></TextBlock>
+                                    <TextBlock Text="2. Add Application URL and Application Key in given text box." FontWeight="Bold"></TextBlock>
+                                    <TextBlock Text="3. Click on Insert Button." FontWeight="Bold"></TextBlock>
+                                    <TextBlock Text="4. Make sure all the data are inserted." FontWeight="Bold"></TextBlock>
+                                    <TextBlock Text="5. After insert all data successfully, Go to windows Azure and change all tables permission as Autintication User." FontWeight="Bold"></TextBlock>
+                                    <TextBlock Text="6. Run WhereTheFriend application and enjoy the UI." FontWeight="Bold"></TextBlock>
+                                </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+
+                </Border>
+            </Grid>
+        </StackPanel>
+       
+    </Grid>
+</Page>

@@ -1,0 +1,30 @@
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\bin\ZumoE2EHTMLApp.dll
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\bin\ZumoE2EHTMLApp.pdb
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\ZumoE2EHTMLApp.dll
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\ZumoE2EHTMLApp.pdb
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\obj\Debug\ZumoE2EHTMLApp.dll
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\obj\Debug\ZumoE2EHTMLApp.pdb
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\allTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\loginTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\miscTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\queryTestData.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\queryTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\roundTripTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\updateDeleteTests.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\testFramework.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\lib\MobileServices.Web-1.0.0.min.js
+D:\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\obj\Debug\ZumoE2EHTMLApp.csprojResolveAssemblyReference.cache
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\testFramework.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\allTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\loginTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\miscTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\queryTestData.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\queryTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\roundTripTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\js\tests\updateDeleteTests.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\lib\MobileServices.Web-1.0.0.min.js
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\ZumoE2EHTMLApp.dll
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\TestFramework\ZumoE2EHTMLApp.pdb
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\obj\Debug\ZumoE2EHTMLApp.csprojResolveAssemblyReference.cache
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\obj\Debug\ZumoE2EHTMLApp.dll
+D:\Naren Mobile service apps\MergeWinJSAndHTML\ZumoE2EHTMLApp\ZumoE2EHTMLApp\obj\Debug\ZumoE2EHTMLApp.pdb

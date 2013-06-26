@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>All Friends</title>
+        <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet">
+        <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+        <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+        <script type="text/javascript" src="allFriends.js"></script>
+    </head>
+    <body>
+         <div style="width: 98%; height: 98%; padding-left: 10px; position: fixed">
+        <div id="Menu" style="text-align: right">
+            <button id="btnBack" style="border: 0px none; font-size: 10px; color: yellow">Back</button>
+            <br />
+        </div>
+        <div id="allfriends" style="border: 2px solid #e2e2e2; background-color: darkgray;
+            width: 100%; padding-top: 5px;" >
+            <label><b><i>&nbsp;All Friends ...</i></b></label>
+            <hr />
+            <section aria-label="Main content" role="main">
+                <div id="ListofAllFriends" data-win-control="WinJS.Binding.Template">
+                    <div style=" height: 55px; background-color: Gray; position: relative">
+                        <img data-win-bind="src: userImage" style="border: 1px solid #e2e2e2; width: 50px;
+                            height: 50px; float: left; margin-right: 5px" />
+                        <div style="padding-left: 10px; padding-right: 10px">
+                            <h4 data-win-bind="innerText: friendName"></h4>
+                            <h6 data-win-bind="innerText: createdAt"></h6>
+                        </div>
+                    </div>
+                </div>
+                <div id="listAllFriends" style="overflow-y: scroll; " data-win-control="WinJS.UI.ListView" data-win-options="{itemTemplate: select('#ListofAllFriends'), layout: { type: WinJS.UI.ListLayout } }">
+                </div>
+            </section>
+        </div>
+    </div>
+    </body>
+</html>

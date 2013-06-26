@@ -1,0 +1,1 @@
+C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\E2EZumoTests.csproj;neutral

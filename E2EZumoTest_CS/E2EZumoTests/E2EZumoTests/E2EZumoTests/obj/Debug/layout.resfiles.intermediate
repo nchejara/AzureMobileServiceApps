@@ -1,0 +1,13 @@
+Assets\Logo.png
+Assets\SmallLogo.png
+Assets\SplashScreen.png
+Assets\StoreLogo.png
+badgelogo-sdk.png
+App.xaml
+Common\StandardStyles.xaml
+MainPage.xaml
+LongStringFile.txt
+Script\Channels.del.js
+Script\Channels.insert.js
+Script\Channels.update.js
+Script\UserAccess.insert.js

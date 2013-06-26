@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="WhereTheFriend.FriendsRequest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WhereTheFriend"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="1300" Height="800">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Width="1250" Orientation="Horizontal" >
+            <HyperlinkButton x:Name="hyplnkBack" Click="hyplnkBack_Click_1" VerticalContentAlignment="Top" Content="Back" FontSize="10" FontWeight="Bold"></HyperlinkButton>
+            <HyperlinkButton x:Name="hyplnkApproved" Click="hyplnkApproved_Click_1" VerticalContentAlignment="Top" Content="Approved" FontSize="10" FontWeight="Bold"></HyperlinkButton>
+            <HyperlinkButton x:Name="hyplnkReject" Click="hyplnkReject_Click_1" VerticalContentAlignment="Top" Content="Rejected" FontSize="10" FontWeight="Bold"></HyperlinkButton>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Width="900" Orientation="Horizontal" HorizontalAlignment="Left">
+            <ListView x:Name="lvListPendingRequest" HorizontalAlignment="Left" BorderThickness="1" Background="Gray" BorderBrush="White" Margin="5,0,0,0"  VerticalAlignment="Top" Width="800" Height="600">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Border CornerRadius="2"  BorderBrush="Black" BorderThickness="2" Width="450" >
+                            <StackPanel Orientation="Horizontal" Width="400">
+                                <Border CornerRadius="2" BorderBrush="Black" BorderThickness="1" Width="50" Height="50">
+                                    <Image Source="{Binding userImage}" Width="50" Height="50"  ></Image>
+                                </Border>
+                                <StackPanel Orientation="Vertical">
+                                    <TextBox Text="{Binding friendName}" FontSize="12" Margin="5,0,0,0" Background="DarkGray"  BorderThickness="0"  FontWeight="Bold" ></TextBox>
+                                    <TextBox Text="{Binding createdAt}" FontSize="10" BorderThickness="0" Background="DarkGray"  Margin="5,0,0,0" ></TextBox>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ZUMOWIN8RTMVSEX</Machine>
+    <WindowsUser>v-narenp</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>10391B7CCC4039263EEBC6A6D8C02F9ADAEEFD7436260E4D49E740838F7DCF60</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>BUILD.1b054c20-835c-46d3-a544-bfb329908520_1.0.0.0_neutral__f7kqrc3w55hhr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>BUILD.1b054c20-835c-46d3-a544-bfb329908520_f7kqrc3w55hhr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>BUILD.1b054c20-835c-46d3-a544-bfb329908520</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=v-narenp</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-12-10T02:25:44.225</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\bin\Debug\E2EZumoTests.exe">
+      <PackagePath>E2EZumoTests.exe</PackagePath>
+      <Modified>2012-12-10T02:25:43.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\bin\Debug\E2EZumoTests.pdb">
+      <PackagePath>E2EZumoTests.pdb</PackagePath>
+      <Modified>2012-12-10T02:25:43.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro XAML\References\CommonConfiguration\Neutral\Microsoft.Live.Controls.dll">
+      <PackagePath>Microsoft.Live.Controls.dll</PackagePath>
+      <Modified>2012-08-02T20:35:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro XAML\References\CommonConfiguration\Neutral\Microsoft.Live.dll">
+      <PackagePath>Microsoft.Live.dll</PackagePath>
+      <Modified>2012-08-02T20:35:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MobileServicesManagedClient\0.2.0.0\References\CommonConfiguration\neutral\Microsoft.WindowsAzure.MobileServices.Managed.dll">
+      <PackagePath>Microsoft.WindowsAzure.MobileServices.Managed.dll</PackagePath>
+      <Modified>2012-12-06T03:20:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro XAML\Redist\CommonConfiguration\Neutral\Microsoft.Live.Controls\Images\Hotmail.png">
+      <PackagePath>Microsoft.Live.Controls\Images\Hotmail.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro XAML\Redist\CommonConfiguration\Neutral\Microsoft.Live.Controls\Images\Hotmail_black.png">
+      <PackagePath>Microsoft.Live.Controls\Images\Hotmail_black.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro XAML\Redist\CommonConfiguration\Neutral\Microsoft.Live.Controls\Images\Messenger.png">
+      <PackagePath>Microsoft.Live.Controls\Images\Messenger.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro XAML\Redist\CommonConfiguration\Neutral\Microsoft.Live.Controls\Images\Messenger_black.png">
+      <PackagePath>Microsoft.Live.Controls\Images\Messenger_black.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro XAML\Redist\CommonConfiguration\Neutral\Microsoft.Live.Controls\Images\SkyDrive.png">
+      <PackagePath>Microsoft.Live.Controls\Images\SkyDrive.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro XAML\Redist\CommonConfiguration\Neutral\Microsoft.Live.Controls\Images\SkyDrive_black.png">
+      <PackagePath>Microsoft.Live.Controls\Images\SkyDrive_black.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro XAML\Redist\CommonConfiguration\Neutral\Microsoft.Live.Controls\Images\Windows.png">
+      <PackagePath>Microsoft.Live.Controls\Images\Windows.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Live\v5.0\Metro XAML\Redist\CommonConfiguration\Neutral\Microsoft.Live.Controls\Images\Windows_black.png">
+      <PackagePath>Microsoft.Live.Controls\Images\Windows_black.png</PackagePath>
+      <Modified>2012-05-21T18:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\badgelogo-sdk.png">
+      <PackagePath>badgelogo-sdk.png</PackagePath>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\LongStringFile.txt">
+      <PackagePath>LongStringFile.txt</PackagePath>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\Script\Channels.del.js">
+      <PackagePath>Script\Channels.del.js</PackagePath>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\Script\Channels.insert.js">
+      <PackagePath>Script\Channels.insert.js</PackagePath>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\Script\Channels.update.js">
+      <PackagePath>Script\Channels.update.js</PackagePath>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\Script\UserAccess.insert.js">
+      <PackagePath>Script\UserAccess.insert.js</PackagePath>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-11-29T09:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-12-06T08:18:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Mobile Service apps\latest from TFS\E2EZumoTest_CS\E2EZumoTests\E2EZumoTests\E2EZumoTests\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-12-10T02:25:44.066</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

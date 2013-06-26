@@ -1,0 +1,226 @@
+﻿<Page
+    x:Class="E2EZumoTests.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:E2EZumoTests"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="1400" Height="900">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <!-- Header-->
+            <RowDefinition Height="40" />
+            <RowDefinition Height="10" />
+            <!--Content -->
+            <RowDefinition Height="850" />
+            <!--<RowDefinition Height="10" />-->
+            <!-- Footer -->
+            <!--<RowDefinition Height="30" />-->
+
+        </Grid.RowDefinitions>
+        <!-- Header-->
+        <Border CornerRadius="2"  Grid.Row="0" BorderThickness="2" BorderBrush="White">
+            <StackPanel x:Name="stkpnlHeader"  Orientation="Horizontal"  Background="Gray" Height="40" >
+                <StackPanel Width="1000" HorizontalAlignment="Left" >
+                    <TextBlock Text="Mobile Services E2E Zumo automation testing .." Margin="5,5,0,0" Foreground="Yellow" FontWeight="Bold" FontSize="12"></TextBlock>
+                </StackPanel>
+                <StackPanel x:Name="pnlLogin"  Width="300" HorizontalAlignment="Right"  Orientation="Horizontal" >
+                    <TextBlock x:Name="lblWelcome" Height="32" FontSize="15"   Foreground="Yellow"  VerticalAlignment="Bottom"    />
+                    <Button x:ConnectionId='26' x:Name="btnSignin" BorderThickness="0" Margin="10,0,0,0" Foreground="Yellow" Content="Sign in (live SDK)"                           ></Button>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+        <!-- Content -->
+        <StackPanel x:Name="stkpnlContent" Grid.Row="2" >
+            <Grid x:Name="grdContent" Height="850">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300" />
+                    <ColumnDefinition Width="10" />
+                    <ColumnDefinition Width="1090" />
+
+
+                </Grid.ColumnDefinitions>
+                <!-- Left Column-->
+                <Border CornerRadius="2" Grid.Row="0" Grid.Column="0"  BorderThickness="2" BorderBrush="White">
+                    <StackPanel x:Name="stkpnlLeftContent"   Background="Gray" >
+                        <TextBlock Text="Scenarios" Margin="5,5,0,0" FontSize="13" FontWeight="Bold" Foreground="Yellow"></TextBlock>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="1. Insert and Verify" Margin="15,0,0,0" FontSize="12" FontWeight="Bold" Foreground="Yellow"></TextBlock>
+                            <Button x:ConnectionId='25' x:Name="btnInsertAndVerifyHelp" BorderThickness="0" Content="Help"                                        FontSize="10" />
+                        </StackPanel>
+                        <StackPanel Margin="15,0,0,0" Orientation="Vertical">
+                            <Button x:ConnectionId='24' x:Name="btnRoundTripDataTypes" Content="1.1 RoundTripDataType" BorderThickness="0"                                       Margin="15,0,0,0" FontSize="12"></Button>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="2. Query" Margin="15,0,0,0" FontSize="12" FontWeight="Bold" Foreground="Yellow"></TextBlock>
+                            <Button x:ConnectionId='23' x:Name="btnQueryHelp" BorderThickness="0" Content="Help"                              FontSize="10" />
+                        </StackPanel>
+                        <StackPanel Margin="15,0,0,0" Orientation="Vertical">
+                            <Button x:ConnectionId='22' x:Name="btnRunQuery" Content="2.2 Run Query" BorderThickness="0"                             Margin="15,0,0,0" FontSize="12"></Button>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="3. Permission" Margin="15,0,0,0" FontSize="12" FontWeight="Bold" Foreground="Yellow"></TextBlock>
+                            <Button x:ConnectionId='21' x:Name="btnPermissionHelp" BorderThickness="0" Content="Help"                                   FontSize="10" />
+                        </StackPanel>
+                        <StackPanel Margin="15,0,0,0" Orientation="Vertical">
+                            <Button x:ConnectionId='13' x:Name="btnEveryOne" Content="3.1 Every one" BorderThickness="0"                             Margin="15,0,0,0" FontSize="12"></Button>
+                            <Button x:ConnectionId='14' x:Name="btnApplicationKey" Content="3.2 Application key" BorderThickness="0"                                   Margin="15,0,0,0" FontSize="12"></Button>
+                            <TextBlock Text="3.3 Authentication" Margin="30,0,0,0" FontSize="12" FontWeight="Bold" Foreground="Yellow"></TextBlock>
+                            <StackPanel x:Name="stkpnlMultiAutentication" Margin="15,0,0,0" Orientation="Vertical">
+                                <StackPanel Margin="15,0,0,0" Orientation="Horizontal">
+                                    <Button x:ConnectionId='20' x:Name="btnLiveSDK" BorderThickness="0" Margin="5,0,0,0" FontSize="10" Content="Microsoft (live SDK)"                            ></Button>
+                                </StackPanel>
+                                <StackPanel Margin="15,0,0,0" Orientation="Horizontal">
+                                    <Button x:ConnectionId='18' x:Name="btnMicrosoft" Content="Microsoft"                              BorderThickness="0" Margin="5,0,0,0" FontSize="10"></Button>
+                                    <Button x:ConnectionId='19' x:Name="btnTwitter" Content="Twiter"                            BorderThickness="0" Margin="5,0,0,0" FontSize="10"></Button>
+                                </StackPanel>
+                                <StackPanel Margin="15,0,0,0" Orientation="Horizontal">
+                                    <Button x:ConnectionId='16' x:Name="btnFacebook" Content="Facebook"                             BorderThickness="0" Margin="5,0,0,0" FontSize="10"></Button>
+                                    <Button x:ConnectionId='17' x:Name="btnGoogle" Content="Google"                           BorderThickness="0" Margin="5,0,0,0" FontSize="10"></Button>
+                                </StackPanel>
+                            </StackPanel>
+                            <Button x:ConnectionId='15' x:Name="btnScript" Content="3.4 Admin and Script"                           BorderThickness="0" Margin="15,0,0,0" FontSize="12"></Button>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="4. Scripts" Margin="15,0,0,0" FontSize="12" FontWeight="Bold" Foreground="Yellow"></TextBlock>
+                            <Button x:ConnectionId='12' x:Name="btnScriptHelp" BorderThickness="0" Content="Help"                               FontSize="10" />
+                        </StackPanel>
+                        <StackPanel Margin="15,0,0,0" Orientation="Vertical">
+                            <Button x:ConnectionId='8' x:Name="btnScriptInsert" Content="4.1 Insert" BorderThickness="0"                                 Margin="15,0,0,0" FontSize="12"></Button>
+                            <Button x:ConnectionId='9' x:Name="btnScriptUpdate" Content="4.2 Update" BorderThickness="0"                                 Margin="15,0,0,0" FontSize="12"></Button>
+                            <Button x:ConnectionId='10' x:Name="btnScriptRead" Content="4.3 Read" BorderThickness="0"                               Margin="15,0,0,0" FontSize="12"></Button>
+                            <Button x:ConnectionId='11' x:Name="btnScriptDelete" Content="4.4 Delete"                                 BorderThickness="0" Margin="15,0,0,0" FontSize="12"></Button>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="5. Dynamic Schema" Margin="15,0,0,0" FontSize="12" FontWeight="Bold" Foreground="Yellow"></TextBlock>
+                            <Button x:ConnectionId='7' x:Name="btnDynamicSchemaHelp" BorderThickness="0"                                      Content="Help" FontSize="10" />
+                        </StackPanel>
+                        <StackPanel Margin="15,0,0,0" Orientation="Vertical">
+                            <Button x:ConnectionId='6' x:Name="btnVerifySchema" Content="5.1 Verify Schema" BorderThickness="0"                                 Margin="15,0,0,0" FontSize="12"></Button>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="6. Push Notification" Margin="15,0,0,0" FontSize="12" FontWeight="Bold" Foreground="Yellow"></TextBlock>
+                            <Button x:ConnectionId='5' x:Name="btnPushNotificationHelp" BorderThickness="0" Content="Help"                                         FontSize="10" />
+                        </StackPanel>
+                        <StackPanel Margin="15,0,0,0" Orientation="Vertical">
+                            <Button x:ConnectionId='1' x:Name="btnPushNotificationInsert" Content="6.1 Insert" BorderThickness="0"                                           Margin="15,0,0,0" FontSize="12"></Button>
+                            <Button x:ConnectionId='2' x:Name="btnPushNotificationUpdate" Content="6.2 Update" BorderThickness="0"                                           Margin="15,0,0,0" FontSize="12"></Button>
+                            <Button x:ConnectionId='3' x:Name="btnPushNotificationDelete" Content="6.3 Delete" BorderThickness="0"                                           Margin="15,0,0,0" FontSize="12"></Button>
+                            <Button x:ConnectionId='4' x:Name="btnPushNotificationSendRaw" Content="6.4 Send Raw" BorderThickness="0"                                            Margin="15,0,0,0" FontSize="12"></Button>
+                        </StackPanel>
+
+                    </StackPanel>
+                </Border>
+
+                <!-- Center Column-->
+                <Border CornerRadius="2" Grid.Row="0" Grid.Column="2"  BorderThickness="2" BorderBrush="White">
+                    <StackPanel x:Name="stkpnlCenterContent"   Background="DarkGray" >
+                        <StackPanel x:Name="ApsInit" Orientation="Horizontal" Background="Gray"  Height="200" Margin="5,5,0,0"  VerticalAlignment="Top">
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="Apps Initialization" Foreground="Yellow" FontWeight="Bold" FontSize="13" Margin="5,5,0,0"></TextBlock>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="top">
+                                    <TextBlock Text="Application URL :" FontWeight="Bold" FontSize="10" Margin="5,5,0,0"></TextBlock>
+                                    <TextBox x:Name="txtURL" Margin="5,5,0,0" Width="515" ></TextBox>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal"  VerticalAlignment="top">
+                                    <TextBlock Text="Application Key :" FontWeight="Bold" FontSize="10" Margin="5,5,0,0"></TextBlock>
+                                    <TextBox x:Name="txtKey" Margin="7,5,0,0" Width="515"></TextBox>
+                                </StackPanel>
+                                <!-- For permission -->
+                                <StackPanel x:Name="pnlPermission" Visibility="Collapsed" Orientation="Vertical">
+                                    <StackPanel Orientation="Horizontal"  VerticalAlignment="top">
+                                        <TextBlock Text="Master Key :" FontWeight="Bold" FontSize="10" Margin="5,5,0,0"></TextBlock>
+                                        <TextBox x:Name="txtMasterKey" Margin="25,5,0,0" Width="515"></TextBox>
+                                    </StackPanel>
+
+                                </StackPanel>
+                                <TextBlock x:Name="lblOutput" Text="" Foreground="Yellow" FontWeight="Bold" Margin="5,10,0,0"  FontSize="12" Height="87"></TextBlock>
+                            </StackPanel>
+                            <StackPanel x:Name="pnlTopSkip" Visibility="Collapsed" Orientation="Horizontal" Margin="5,0,0,0">
+                                <StackPanel Orientation="Vertical" Width="280">
+                                    <TextBlock Text="Top and skip" Foreground="Yellow" FontWeight="Bold" FontSize="13" Margin="5,5,0,0"></TextBlock>
+                                    <StackPanel Orientation="Horizontal" Background="Gray" VerticalAlignment="top">
+                                        <TextBlock Text="Top :" FontWeight="Bold" FontSize="10" Margin="5,5,0,0"></TextBlock>
+                                        <TextBox x:Name="txtTop" Margin="5,5,0,0" Width="50" Text="50" TextAlignment="Right"></TextBox>
+
+                                        <TextBlock Text="Skip :" FontWeight="Bold" FontSize="10" Margin="5,5,0,0"></TextBlock>
+                                        <TextBox x:Name="txtSkip" Margin="5,5,0,0" Width="50" Text="0" TextAlignment="Right"></TextBox>
+                                    </StackPanel>
+                                    <TextBlock x:Name="lblMsg" Foreground="Yellow" FontWeight="Bold" FontSize="11" Margin="5,5,0,0"></TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel >
+                        <StackPanel x:Name="pnlInsert" Visibility="Collapsed" Orientation="Horizontal" Background="Gray"  Height="20" Margin="5,5,0,0"  VerticalAlignment="Top" >
+                            <TextBlock Text="ID" Width="50" FontWeight="Bold" ></TextBlock>
+                            <TextBlock Text="Name" Width="200" FontWeight="Bold" ></TextBlock>
+                            <TextBlock Text="Value" Width="150" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="Get Value" Width="150" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="Actual"  Width="100" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="Expected"  Width="100" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="Result"  Width="100" FontWeight="Bold"></TextBlock>
+                        </StackPanel>
+                        
+                        <ItemsControl x:Name="ItemData" Visibility="Collapsed" HorizontalAlignment="Left"  Margin="5,0,0,0" 
+                         VerticalAlignment="Top"  >
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel  Orientation="Horizontal" Background="Gray" VerticalAlignment="top" >
+                                        <TextBlock x:Name="LVId"  Text="{Binding Id}" Width="50" ></TextBlock>
+                                        <TextBlock x:Name="LVName"  Text="{Binding Name}" Width="200" ></TextBlock>
+                                        <TextBlock x:Name="LVAValue" Text="{Binding Value}"  Width="150" ></TextBlock>
+                                        <TextBlock x:Name="LVAGetValue" Text="{Binding GetValue}"  Width="150" ></TextBlock>
+                                        <TextBlock x:Name="LVActual" Text="{Binding ActualResult}"  Width="100"  ></TextBlock>
+                                        <TextBlock x:Name="LVExpected" Text="{Binding ExpectedResult}" Width="100" ></TextBlock>
+                                        <TextBlock x:Name="LVResults" Text="{Binding Result}"  Foreground="{Binding Colors}" Width="100" FontWeight="Bold"></TextBlock>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+
+                        </ItemsControl>
+                        <StackPanel x:Name="pnlInsertExceptiondetails" Visibility="Collapsed" Orientation="Horizontal" Background="Gray" Height="20" Margin="5,5,0,0"  VerticalAlignment="Top">
+                            <TextBlock Text="Scenario Name" Width="150" FontWeight="Bold" ></TextBlock>
+                            <TextBlock Text="Exception Details"  FontWeight="Bold" ></TextBlock>
+                        </StackPanel>
+                        <ItemsControl   x:Name="ItemExceptionData" Visibility="Collapsed" HorizontalAlignment="Left"  Margin="5,0,0,0" 
+                         VerticalAlignment="Top"  >
+                            <ItemsControl.ItemTemplate>
+                                    <DataTemplate >
+                                        <StackPanel  Orientation="Horizontal" Background="Gray" VerticalAlignment="top" >
+                                            <TextBlock x:Name="LVEName"  Text="{Binding Name}" Width="150" Margin="5,0,0,0" ></TextBlock>
+                                            <TextBlock x:Name="LVEDetails"  Text="{Binding ExceptionDetails}" Margin="5,0,0,0"></TextBlock>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+
+                         </ItemsControl>
+                        
+                        
+                        <!-- Help Item Data -->
+                        <ItemsControl x:Name="ItemHelpData" Visibility="Collapsed" HorizontalAlignment="Left"  Margin="5,0,0,0" 
+                         VerticalAlignment="Top" >
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel  Width="1000" Margin="0,10,0,0"  Orientation="Vertical" Background="Gray" VerticalAlignment="top" >
+                                        <TextBlock x:Name="LVHTitle"  Text="{Binding Title}" FontWeight="Bold" FontSize="13" Foreground="Yellow"  Margin="5,5,0,0" ></TextBlock>
+                                        <TextBlock x:Name="LVHScenarioName" Text="{Binding ScenarioName}" FontWeight="Bold" Margin="15,5,0,0"></TextBlock>
+                                        <TextBlock x:Name="LVHDetails"  Text="{Binding Details}" Margin="25,5,0,0"></TextBlock>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+
+                        </ItemsControl>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </StackPanel>
+        <!-- Footer-->
+        <!--<Border CornerRadius="2" Grid.Row="4" BorderThickness="2" BorderBrush="White">
+            <StackPanel x:Name="stkpnlFooter"   Background="Gray" >
+
+            </StackPanel>
+        </Border>-->
+    </Grid>
+</Page>
+

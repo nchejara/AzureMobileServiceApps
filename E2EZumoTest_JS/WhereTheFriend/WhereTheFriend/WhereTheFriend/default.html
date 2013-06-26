@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WhereTheFriend</title>
+    <!-- WinJS references -->
+    <link rel="stylesheet" type="text/css" href="//Microsoft.WinJS.1.0/css/ui-dark.css" />
+    <script type="text/javascript" src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script type="text/javascript" src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    <script type="text/javascript" src="/LiveSDKHTML/js/wl.js"></script>
+    
+    <script type="text/javascript" src="/MobileServicesJavaScriptClient/MobileServices.js"></script>
+    <!-- WhereTheFriend references -->
+    <link href="/css/default.css" rel="stylesheet">
+    <script src="/js/default.js"></script>
+    <script src="js/navigation.js"></script>
+    
+    
+</head>
+<body>
+    <div id="contenthost" data-win-control="WhereTheFriend.PageControlNavigator"
+        data-win-options="{home: '/html/home.html'}">
+    </div>
+    
+    <!-- END TEMPLATES -->
+
+    <div id="busyScreen" style="visibility: hidden; text-align: center; background-color: rgba(0, 0, 0, 0.49);
+        width: 100%; position: absolute; height: 100%; top: 0px;">
+        <div style="top: 360px; position: relative;">
+            <progress class="win-ring" style="width: 56px; height: 56px; vertical-align: middle;">
+            </progress>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

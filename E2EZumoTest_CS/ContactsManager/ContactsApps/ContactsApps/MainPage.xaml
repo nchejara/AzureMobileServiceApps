@@ -1,0 +1,120 @@
+﻿<Page
+    x:Class="ContactsApps.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ContactsApps"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Name="grdContactDisplay">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Name:" 
+                   Grid.Row="0" Grid.Column="0" Margin="5"/>
+            <TextBox Name="txtName" 
+                     Margin="5"
+                     Grid.Row="0" Grid.Column="1" />
+            <TextBlock Text="Phone:" 
+                   Grid.Row="1" Grid.Column="0" Margin="5"/>
+            <TextBox Name="txtPhone" 
+                     Margin="5"
+                     Grid.Row="1" Grid.Column="1" />
+            <TextBlock Text="Date of Birth:" 
+                   Grid.Row="2" Grid.Column="0" Margin="5"
+                   ToolTipService.ToolTip="Sorry, no DatePicker control for XAML" />
+            <TextBox Name="txtDOB" 
+                     Margin="5"
+                     ToolTipService.ToolTip="Sorry, no DatePicker control for XAML"
+                     Grid.Row="2" Grid.Column="1" />
+            <TextBlock Text="Twitter handle:" 
+                   Grid.Row="3" Grid.Column="0" Margin="5"
+                   ToolTipService.ToolTip="Sorry, no DatePicker control for XAML" />
+            <TextBox Name="txtTwitter" 
+                     Margin="5"
+                     Grid.Row="3" Grid.Column="1" />
+
+            <Popup x:Name="popupURLBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,100,100,100">
+                <Border BorderBrush="White" BorderThickness="2" >
+                    <Grid Background="Gray" Height="262" Width="630">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="Application URL" Foreground="Black" Margin="15,15,0,0" FontWeight="Bold"></TextBlock>
+                            <TextBox x:Name="txtURL" Foreground="Black" Width="500" Margin="0,5,100,0"></TextBox>
+                            <TextBlock Text="Application Key" Foreground="Black" Margin="15,15,0,0" FontWeight="Bold"></TextBlock>
+                            <TextBox x:Name="txtKey" Foreground="Black" Width="500" Margin="0,5,100,0"></TextBox>
+                            <TextBlock x:Name="lblMsg" Foreground="Yellow"  Margin="15,15,0,0" FontWeight="Bold"></TextBlock>
+                              <StackPanel Orientation="Horizontal">
+                                <Button x:Name="btnOk" Click="btnOk_Click_1" Content="Ok" Foreground="Black" BorderBrush="Black" Margin="15,15,0,0"></Button>
+                            <Button x:Name="btnClose" Click="btnClose_Click_1" Content="Close" Foreground="Black" BorderBrush="Black" Margin="15,15,0,0"></Button>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </Popup>
+
+        </Grid>
+        <TextBlock Text="Contact Manager"
+                   Style="{StaticResource HeaderTextStyle}"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   />
+        <TextBlock x:Name="lblMsg1" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Foreground="Yellow" FontWeight="Bold"></TextBlock>
+        <Button Margin="5" Content="Previous Contact" 
+                Grid.Row="3" Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                Name="btnPrevious"
+                Click="btnPrevious_Click_1" />
+        <Button x:Name="btnChangeURL" Grid.Row="3" Grid.Column="1" 
+                Click="btnChangeURL_Click_1"
+                Content="Cahnge Application URL and key"></Button>
+        <Button Margin="5" Content="Next Contact" 
+                Grid.Row="3" Grid.Column="2"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                Name="btnNext"
+                Click="btnNext_Click_1"/>
+        <Button Margin="5" Content="Create New" 
+                Grid.Row="1" Grid.Column="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                Name="btnCreateNew"
+                Click="btnCreateNew_Click_1"/>
+        <Button Margin="5" Content="Update" 
+                Grid.Row="1" Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                Name="btnUpdate"
+                Click="btnUpdate_Click_1"/>
+        <Button Margin="5" Content="Delete" 
+                Grid.Row="1" Grid.Column="2"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                Name="btnDelete"
+                Click="btnDelete_Click_1"/>
+    </Grid>
+</Page>

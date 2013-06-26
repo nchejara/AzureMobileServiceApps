@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <!-- WinJS references -->
+    <link rel="stylesheet" type="text/css" href="//Microsoft.WinJS.1.0/css/ui-dark.css" />
+    <script type="text/javascript" src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script type="text/javascript" src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    <script type="text/javascript" src="/MobileServicesJavaScriptClient/MobileServices.js"></script>
+    <script type="text/javascript" src="home.js"></script>
+
+
+</head>
+<body>
+    <div style="width: 98%; height: 98%; padding-left: 10px; position: fixed">
+        <br />
+        <div style="border: 2px solid #e2e2e2; background-color: #808080; padding-right: 5px;">
+            &nbsp <b><i>WhereTheFriend Helper...</i></b>
+        </div>
+        <br />
+        <div id="LeftMain" style="width: 100%; height: 50%; padding: 2px 2px 2px 2px; border: 2px solid #e2e2e2; background-color: #808080">
+            <table style="width: 100%">
+                <tr>
+                    <td style="width:50%;vertical-align:top">
+                        <table style="width: 100%">
+                            <tr>
+                                <td>
+                                    <i>Application URL and Key  ...</i>
+                                    <hr />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Application URL</td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" id="txtURL" style="width: 100%" /></td>
+                            </tr>
+                            <tr>
+                                <td>Application Key</td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" id="txtKey" style="width: 100%" /></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label id="lblMsg" style="color: Yellow"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" id="btnInsert" name="Insert" value="Insert" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td style="width:50%;vertical-align:top">
+                        <table style="width: 100%">
+                            <tr>
+                                <td>
+                                    <i>Application Usage  ...</i>
+                                    <hr />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;1. Create an appication on windows Azure mobile service and add three tables<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>[ Customers, Friends and Checkins ]</b>.<br />
+                                    &nbsp;&nbsp;&nbsp;2. Add Application URL and Application Key in given text box.<br />
+                                    &nbsp;&nbsp;&nbsp;3. Click on Insert Button. <br />
+                                    &nbsp;&nbsp;&nbsp;4. Make sure all the data are inserted.<br />
+                                    &nbsp;&nbsp;&nbsp;5. After insert all data successfully, Go to windows Azure and change all tables<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; permission as Autintication User.<br />
+                                    &nbsp;&nbsp;&nbsp;6. Run WhereTheFriend application and enjoy the UI.<br />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+              
+            </table>
+
+
+
+
+
+        </div>
+    </div>
+</body>
+</html>
